@@ -1,0 +1,52 @@
+{
+  "slug": "retirement",
+  "title": "Rentenvisum",
+  "description": "Für Personen ab 50 Jahren, die ihren Ruhestand in Thailand verbringen möchten.",
+  "duration": "1 Jahr (verlängerbar)",
+  "features": [
+    "Für Personen ab 50 Jahren",
+    "Jährliche Verlängerung möglich",
+    "Finanzielle Nachweise erforderlich",
+    "Langfristiger Aufenthalt"
+  ],
+  "content": {
+    "sections": [
+      {
+        "title": "Überblick",
+        "content": "Das Rentenvisum (Non-Immigrant O-A Visa) ist für Personen ab 50 Jahren gedacht, die ihren Ruhestand in Thailand verbringen möchten. Es ermöglicht einen langfristigen Aufenthalt ohne Arbeitserlaubnis."
+      },
+      {
+        "title": "Voraussetzungen",
+        "content": "Sie müssen mindestens 50 Jahre alt sein und finanzielle Mittel nachweisen können. Dies kann durch ein Bankguthaben von mindestens 800.000 THB (ca. 20.000 EUR) oder ein monatliches Einkommen von mindestens 65.000 THB (ca. 1.600 EUR) erfolgen."
+      },
+      {
+        "title": "Verlängerung",
+        "content": "Das Rentenvisum kann jährlich verlängert werden, solange Sie die finanziellen Voraussetzungen erfüllen. Sie müssen sich mindestens 90 Tage pro Jahr in Thailand aufhalten, um die Verlängerung zu beantragen."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Wie alt muss ich sein, um ein Rentenvisum zu beantragen?",
+      "answer": "Sie müssen mindestens 50 Jahre alt sein, um ein Rentenvisum zu beantragen."
+    },
+    {
+      "question": "Welche finanziellen Nachweise benötige ich?",
+      "answer": "Sie müssen entweder ein Bankguthaben von mindestens 800.000 THB nachweisen oder ein monatliches Einkommen von mindestens 65.000 THB. Eine Kombination aus beiden ist ebenfalls möglich."
+    },
+    {
+      "question": "Kann ich mit einem Rentenvisum arbeiten?",
+      "answer": "Nein, ein Rentenvisum erlaubt keine bezahlte Arbeit in Thailand. Wenn Sie arbeiten möchten, benötigen Sie ein separates Arbeitsvisum."
+    },
+    {
+      "question": "Wie lange kann ich mit einem Rentenvisum in Thailand bleiben?",
+      "answer": "Das Rentenvisum ist für ein Jahr gültig und kann jährlich verlängert werden, solange Sie die Voraussetzungen erfüllen."
+    },
+    {
+      "question": "Muss ich eine Krankenversicherung haben?",
+      "answer": "Ja, für Rentenvisa ist eine Krankenversicherung mit einer Mindestdeckung von 40.000 THB für ambulante Behandlung und 400.000 THB für stationäre Behandlung erforderlich."
+    }
+  ],
+  "officialLink": "https://www.thaievisa.go.th/visa/retirement"
+}
+

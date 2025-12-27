@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="20" cy="20" r="20"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Circular Thailand Flag Icon -->
+  <!-- Red stripe (top) -->
+  <rect x="0" y="0" width="40" height="8" fill="#EF3340" clip-path="url(#circleClip)"/>
+  
+  <!-- White stripe -->
+  <rect x="0" y="8" width="40" height="8" fill="#FFFFFF" clip-path="url(#circleClip)"/>
+  
+  <!-- Blue stripe (center) -->
+  <rect x="0" y="16" width="40" height="8" fill="#00247D" clip-path="url(#circleClip)"/>
+  
+  <!-- White stripe -->
+  <rect x="0" y="24" width="40" height="8" fill="#FFFFFF" clip-path="url(#circleClip)"/>
+  
+  <!-- Red stripe (bottom) -->
+  <rect x="0" y="32" width="40" height="8" fill="#EF3340" clip-path="url(#circleClip)"/>
+</svg>
+

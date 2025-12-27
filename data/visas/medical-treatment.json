@@ -1,0 +1,52 @@
+{
+  "slug": "medical-treatment",
+  "title": "Medizinisches Behandlungsvisum",
+  "description": "Für Personen, die medizinische Behandlungen in Thailand benötigen.",
+  "duration": "Variabel",
+  "features": [
+    "Medizinische Behandlung erlaubt",
+    "Begleitperson möglich",
+    "Flexible Aufenthaltsdauer",
+    "Zugang zu thailändischen Krankenhäusern"
+  ],
+  "content": {
+    "sections": [
+      {
+        "title": "Überblick",
+        "content": "Das medizinische Behandlungsvisum (Non-Immigrant O Visa) ermöglicht es Personen, nach Thailand zu reisen, um medizinische Behandlungen zu erhalten. Thailand ist bekannt für seine hochwertige medizinische Versorgung zu erschwinglichen Preisen."
+      },
+      {
+        "title": "Voraussetzungen",
+        "content": "Sie benötigen eine Bestätigung von einem thailändischen Krankenhaus oder einer medizinischen Einrichtung, die Ihre Behandlung bestätigt. Zusätzlich benötigen Sie einen gültigen Reisepass und die üblichen Visumunterlagen."
+      },
+      {
+        "title": "Begleitpersonen",
+        "content": "Eine Begleitperson kann ebenfalls ein Visum erhalten, um Sie während Ihrer Behandlung zu unterstützen. Dies muss bei der Beantragung angegeben werden."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Welche medizinischen Behandlungen sind abgedeckt?",
+      "answer": "Das Visum deckt alle Arten von medizinischen Behandlungen ab, einschließlich Operationen, Zahnbehandlungen, Rehabilitation, Wellness-Behandlungen und mehr."
+    },
+    {
+      "question": "Wie lange kann ich mit einem medizinischen Visum bleiben?",
+      "answer": "Die Aufenthaltsdauer hängt von der Art und Dauer Ihrer Behandlung ab. Das Visum kann entsprechend verlängert werden, solange medizinische Nachweise vorliegen."
+    },
+    {
+      "question": "Kann meine Familie mitkommen?",
+      "answer": "Ja, eine Begleitperson kann ein separates Visum erhalten, um Sie während Ihrer Behandlung zu unterstützen."
+    },
+    {
+      "question": "Benötige ich eine Krankenversicherung?",
+      "answer": "Während eine Krankenversicherung nicht zwingend erforderlich ist, wird sie dringend empfohlen, um die Kosten Ihrer Behandlung abzudecken."
+    },
+    {
+      "question": "Wie finde ich ein geeignetes Krankenhaus?",
+      "answer": "Thailand hat viele international anerkannte Krankenhäuser. Wir empfehlen, sich direkt an die Krankenhäuser zu wenden oder einen medizinischen Reisevermittler zu kontaktieren."
+    }
+  ],
+  "officialLink": "https://www.thaievisa.go.th/visa/medical-treatment"
+}
+

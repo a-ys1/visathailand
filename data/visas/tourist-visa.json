@@ -1,0 +1,52 @@
+{
+  "slug": "tourist-visa",
+  "title": "Touristenvisum",
+  "description": "Perfekt für Urlauber und Reisende, die Thailand erkunden möchten.",
+  "duration": "60 Tage",
+  "features": [
+    "Gültig für 60 Tage",
+    "Einmalige oder mehrfache Einreise",
+    "Einfache Online-Beantragung",
+    "Schnelle Bearbeitungszeit"
+  ],
+  "content": {
+    "sections": [
+      {
+        "title": "Überblick",
+        "content": "Das Touristenvisum ermöglicht es Reisenden, Thailand für touristische Zwecke zu besuchen. Es ist die häufigste Art von Visum für Urlauber und bietet eine einfache Möglichkeit, das Land zu erkunden."
+      },
+      {
+        "title": "Voraussetzungen",
+        "content": "Um ein Touristenvisum zu beantragen, benötigen Sie einen gültigen Reisepass mit mindestens 6 Monaten Gültigkeit, ein Passfoto, den ausgefüllten Antrag und die Zahlung der Visumgebühr."
+      },
+      {
+        "title": "Beantragungsprozess",
+        "content": "Sie können das Touristenvisum online über die offizielle thailändische E-Visa-Website beantragen. Der Prozess ist einfach und schnell - in der Regel erhalten Sie innerhalb von 3-5 Werktagen eine Antwort."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Wie lange ist ein Touristenvisum gültig?",
+      "answer": "Ein Touristenvisum ist für 60 Tage ab dem Einreisedatum gültig. Sie können es einmalig um weitere 30 Tage verlängern lassen, wenn Sie sich noch in Thailand befinden."
+    },
+    {
+      "question": "Kann ich mit einem Touristenvisum arbeiten?",
+      "answer": "Nein, ein Touristenvisum erlaubt keine bezahlte Arbeit in Thailand. Für Arbeitszwecke benötigen Sie ein Arbeitsvisum oder ein Geschäftsvisum."
+    },
+    {
+      "question": "Wie viel kostet ein Touristenvisum?",
+      "answer": "Die Gebühr für ein Touristenvisum beträgt derzeit 40 USD für eine einmalige Einreise und 200 USD für eine mehrfache Einreise."
+    },
+    {
+      "question": "Wie lange dauert die Bearbeitung?",
+      "answer": "Die Bearbeitungszeit beträgt in der Regel 3-5 Werktage nach Einreichung aller erforderlichen Unterlagen."
+    },
+    {
+      "question": "Kann ich das Visum verlängern?",
+      "answer": "Ja, Sie können Ihr Touristenvisum einmalig um 30 Tage verlängern lassen, wenn Sie sich noch in Thailand befinden. Dazu müssen Sie ein Einwanderungsbüro in Thailand aufsuchen."
+    }
+  ],
+  "officialLink": "https://www.thaievisa.go.th/visa/tourist-visa"
+}
+
