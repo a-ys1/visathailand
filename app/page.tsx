@@ -4,16 +4,26 @@ import FAQ from "@/components/faq";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Visa Thailand",
-  description: "Visa Thailand",
+  title: "Thailand Visum für Deutsche | Visum Thailand",
+  description: "Alles über Thailand Visa für deutsche Staatsbürger. Touristenvisum, Rentenvisum, Geschäftsvisum & mehr. Einfache Beantragung & Expertenhilfe.",
   icons: {
     icon: "/favicon.ico",
   },
-  openGraph: {
-    title: "Visa Thailand",
-    description: "Visa Thailand",
-    url: "https://visathailand.de",
+  alternates: {
+    languages: {
+      'de': 'https://visathailand.de',
+      'de-DE': 'https://visathailand.de',
+    },
   },
+  openGraph: {
+    title: "Thailand Visum für Deutsche | Visum Thailand",
+    description: "Alles über Thailand Visa für deutsche Staatsbürger. Touristenvisum, Rentenvisum, Geschäftsvisum & mehr. Einfache Beantragung & Expertenhilfe.",
+    url: "https://visathailand.de",
+    type: "website",
+    locale: "de_DE",
+    siteName: "Visum Thailand",
+  },
+  keywords: ["Thailand Visum", "Thailand Visa Deutschland", "Thailand Visum für Deutsche", "Touristenvisum Thailand", "Rentenvisum Thailand", "Geschäftsvisum Thailand"],
 };
 
 export default function Home() {
