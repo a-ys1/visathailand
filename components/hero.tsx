@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
             <div className="pt-4">
                 <a href="#visa-types" className="scroll-smooth">
-                  <Button size="lg" className="bg-thai-blue text-white">
+                  <Button variant="outline" className="text-primary">
                     Loslegen
                   </Button>
                 </a>

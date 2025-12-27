@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Logo from './logo';
+import Link from "next/link";
+import Logo from "./logo";
 import {
   Sheet,
   SheetContent,
@@ -9,8 +9,8 @@ import {
   SheetTitle,
   SheetTrigger,
   SheetClose,
-} from './ui/sheet';
-import { Menu } from 'lucide-react';
+} from "./ui/sheet";
+import { Menu } from "lucide-react";
 
 export default function Header() {
   return (
@@ -26,10 +26,16 @@ export default function Header() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex md:items-center md:space-x-8">
               <Link
-                href="#faq"
-                className="text-gray-900 hover:text-gray-700 font-medium transition-colors"
+                href="/faq"
+                className="cursor-pointer text-gray-900 hover:text-gray-700 hover:underline font-medium transition-colors"
               >
                 FAQ
+              </Link>
+              <Link
+                href="/posts"
+                className="cursor-pointer text-gray-900 hover:text-gray-700 hover:underline font-medium transition-colors"
+              >
+                Nachrichten
               </Link>
             </div>
 
@@ -49,13 +55,21 @@ export default function Header() {
                   <SheetTitle className="text-left text-xl">Menü</SheetTitle>
                 </SheetHeader>
                 <nav className="mt-1 flex flex-col px-4">
-                    <SheetClose asChild>
-                  <Link
-                    href="#faq"
-                    className="text-lg font-medium text-gray-900 hover:text-gray-700 transition-colors py-2"
+                  <SheetClose asChild>
+                    <Link
+                      href="/faq"
+                      className="text-lg font-medium text-gray-900 hover:text-gray-700 transition-colors py-2"
                     >
-                     FAQ
-                  </Link>
+                      FAQ
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      href="/posts"
+                      className="text-lg font-medium text-gray-900 hover:text-gray-700 transition-colors py-2"
+                    >
+                      Nachrichten
+                    </Link>
                   </SheetClose>
                 </nav>
               </SheetContent>
@@ -66,4 +80,3 @@ export default function Header() {
     </header>
   );
 }
-

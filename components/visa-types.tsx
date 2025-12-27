@@ -1,7 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
-import { Button } from './ui/button';
 import { PlaneLanding, Briefcase, Building2, Hospital, LucideIcon } from 'lucide-react';
+import VisaCard from './visa-card';
 
 export interface VisaType {
   title: string;
@@ -92,48 +90,19 @@ export default function VisaTypes() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {visaTypes.map((visa, index) => {
-            const Icon = visa.IconComponent;
-            return (
-              <div
-                key={index}
-                className="bg-white rounded-lg border border-gray-200 p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col"
-              >
-                <div className={`${visa.iconBgColor} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}>
-                  <Icon className={`w-6 h-6 ${visa.iconColor}`} />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  {visa.title}
-                </h3>
-                <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  {visa.description}
-                </p>
-                
-                <div className="mb-4 flex-1">
-                  <div className="text-sm font-semibold text-gray-700 mb-2">
-                    Aufenthaltsdauer: {visa.duration}
-                  </div>
-                  <ul className="space-y-2">
-                    {visa.features.map((feature, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 flex items-start">
-                        <span className="text-blue-600 mr-2">✓</span>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <Link href={`/visa/${visa.slug}`}>
-                  <Button 
-                    variant="outline" 
-                    className="w-full mt-auto"
-                  >
-                    Mehr erfahren
-                  </Button>
-                </Link>
-              </div>
-            );
-          })}
+          {visaTypes.map((visa, index) => (
+            <VisaCard
+              key={index}
+              title={visa.title}
+              description={visa.description}
+              features={visa.features}
+              duration={visa.duration}
+              slug={visa.slug}
+              iconColor={visa.iconColor}
+              iconBgColor={visa.iconBgColor}
+              IconComponent={visa.IconComponent}
+            />
+          ))}
         </div>
       </div>
     </section>
