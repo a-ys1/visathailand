@@ -5,36 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
-
-interface VisaData {
-  slug: string;
-  title: string;
-  description: string;
-  duration: string;
-  features: string[];
-  content: {
-    sections: Array<{
-      title: string;
-      content: string;
-    }>;
-  };
-  faqs: Array<{
-    question: string;
-    answer: string;
-  }>;
-  officialLink: string;
-}
-
-async function getVisaData(slug: string): Promise<VisaData | null> {
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'visas', `${slug}.json`);
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(fileContents);
-  } catch (error) {
-    console.error(error);
-    return null;
-  }
-}
+import { getVisaData } from '@/lib/visa-data';
 
 export async function generateStaticParams() {
   const visasDir = path.join(process.cwd(), 'data', 'visas');
