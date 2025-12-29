@@ -1,7 +1,6 @@
-import Link from 'next/link';
-import { Metadata } from 'next';
-import { getAllPosts } from '@/lib/post-data';
-import { Calendar, User } from 'lucide-react';
+import { Metadata } from "next";
+import { getAllPosts } from "@/lib/post-data";
+import PostCard from "@/components/post-card";
 
 export default async function PostsArchive() {
   const posts = await getAllPosts();
@@ -15,7 +14,8 @@ export default async function PostsArchive() {
             Nachrichten & Artikel
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl">
-            Aktuelle Informationen über Thailand, Visa-Nachrichten und relevante Updates für deutsche Reisende.
+            Aktuelle Informationen über Thailand, Visa-Nachrichten und relevante
+            Updates für deutsche Reisende.
           </p>
         </div>
       </div>
@@ -28,47 +28,9 @@ export default async function PostsArchive() {
           </div>
         ) : (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.map((post) => {
-              const postDate = new Date(post.date);
-              const formattedDate = postDate.toLocaleDateString('de-DE', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              });
-
-              return (
-                <Link
-                  key={post.slug}
-                  href={`/posts/${post.slug}`}
-                  className="bg-white rounded-lg border border-gray-200 p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col group"
-                >
-                  <div className="mb-3">
-                    <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
-                      {post.category}
-                    </span>
-                  </div>
-                  
-                  <h2 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                    {post.title}
-                  </h2>
-                  
-                  <p className="text-gray-600 mb-4 flex-1 text-sm leading-relaxed">
-                    {post.description}
-                  </p>
-
-                  <div className="flex items-center justify-between text-sm text-gray-500 pt-4 border-t border-gray-100">
-                    <div className="flex items-center gap-2">
-                      <User className="w-4 h-4" />
-                      <span>{post.author}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Calendar className="w-4 h-4" />
-                      <span>{formattedDate}</span>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+            {posts.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
           </div>
         )}
       </div>
@@ -77,7 +39,7 @@ export default async function PostsArchive() {
 }
 
 export const metadata: Metadata = {
-    title: "Nachrichten & Artikel - Visum Thailand",
-    description: "Aktuelle Nachrichten und Artikel über Thailand, Visa-Informationen und Reisetipps für deutsche Staatsbürger.",
-  };
-  
+  title: "Nachrichten & Artikel - Visum Thailand",
+  description:
+    "Aktuelle Nachrichten und Artikel über Thailand, Visa-Informationen und Reisetipps für deutsche Staatsbürger.",
+};
